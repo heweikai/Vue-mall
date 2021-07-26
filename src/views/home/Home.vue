@@ -9,9 +9,9 @@
 <script>
 import NavBar from "components/common/navbar/NavBar.vue";
 import HomeSwiper from "./childComps/HomeSwiper.vue";
+import RecommendView from "./childComps/RecommendView.vue";
 
 import { getHomeMultidata } from "network/home";
-import RecommendView from "./childComps/RecommendView.vue";
 
 export default {
   name: "Home",
